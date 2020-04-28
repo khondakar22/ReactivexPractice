@@ -1,0 +1,28 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "rxjs practices",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khondakar22/ReactivexPractice.git"
+  },
+  "author": "Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khondakar22/ReactivexPractice/issues"
+  },
+  "homepage": "https://github.com/khondakar22/ReactivexPractice#readme",
+  "dependencies": {
+    "rxjs": "^6.5.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
