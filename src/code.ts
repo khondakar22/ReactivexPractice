@@ -635,6 +635,7 @@ fromEvent(document, 'keydown').pipe(
  /**********19- empty()-Example(2) End*******************/
 
  /**********20- from()-Example(1) Start*******************/
-
+const arraySource = from([1,2,3,4,5]);
+const subscribe = arraySource.subscribe(val => console.log(val));
 /**********20- from()-Example(1) End*******************/
  
